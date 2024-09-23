@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "Empleados.API.Controllers.EmpleadoController",
+    "Method": "Lista",
+    "RelativePath": "api/Empleado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Empleados.API.Controllers.EmpleadoController",
+    "Method": "Crear",
+    "RelativePath": "api/Empleado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleado",
+        "Type": "Estudiantes.API.Models.Empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Empleados.API.Controllers.EmpleadoController",
+    "Method": "Editar",
+    "RelativePath": "api/Empleado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleado",
+        "Type": "Estudiantes.API.Models.Empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Empleados.API.Controllers.EmpleadoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Empleado/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Empleados.API.Controllers.EmpleadoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Empleado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
